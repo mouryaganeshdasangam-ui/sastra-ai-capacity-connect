@@ -1,0 +1,24 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Environment variables
+.env
+capacity-connect-chatbot/.env
+
+# Build outputs
+frontend/dist/
+.vercel/
+
+# Database temporary files
+*.db-wal
+*.db-shm
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
